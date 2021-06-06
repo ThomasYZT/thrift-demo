@@ -1,0 +1,19 @@
+{
+  "name": "thrift-node-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen-node": "thrift --gen js:node thrift/news.thrift",
+    "gen-py": "thrift --gen py thrift/news.thrift",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/thrift": "^0.10.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "thrift": "^0.14.1"
+  }
+}
